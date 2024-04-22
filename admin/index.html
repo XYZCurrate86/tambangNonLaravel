@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script type="module" src="script.js"></script>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipment Request Form</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        th {
+            text-align: left;
+            background-color: #f2f2f2;
+        }
+
+        button {
+            padding: 5px 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>APPROVAL PANEL || VEHICLE REQUEST FORM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button id="signoutBtn">LOGOUT</button></h2>
+    <table>
+        <tr>
+            <th>Request Code</th>
+            <td>
+                <input type="text" id="reqCodeInp">
+                <button id="autoReqCode">Auto</button>
+            </td>
+            <td rowspan="2" style="text-align: center;">
+                <button id="addBtn">ADD</button>
+            </td>
+        </tr>
+        <tr>
+            <th>Employee Code</th>
+            <td>
+                <select id="employeeInp">
+                    <option value="KT001">KT-001</option>
+                    <option value="KT002">KT-002</option>
+                    <option value="KT003">Kt-003</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th>Type</th>
+            <td>
+                <select id="typeInp">
+                    <option value="Mobil">Mobil</option>
+                    <option value="Buldozer">Buldozer</option>
+                    <option value="dumpTruck">Dump Truck</option>
+                </select>
+            </td>
+            <td rowspan="2" style="text-align: center;">
+                <button id="getBtn">GET</button>
+            </td>
+        </tr>
+        <tr>
+            <th>Destination</th>
+            <td>
+                <select id="destInp">
+                    <option value="Karst1">Karst-1</option>
+                    <option value="Karst2">Karst-2</option>
+                    <option value="openPit2">Open Pit 2</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+
+        </tr>
+    </table>
+    <table id="dataTbl">
+        <thead>
+            <tr>
+                <th scope="col">Request Code</th>
+                <th scope="col">Employee Code</th>
+                <th scope="col">Type</th>
+                <th scope="col">Destination</th>
+                <th scope="col">isRepaired</th>
+                <th scope="col">isApproved</th>
+            </tr>
+        </thead>
+        
+    </table>
+
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        
+    </script>
+</body>
+
+</html>
