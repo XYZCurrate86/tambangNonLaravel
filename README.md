@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="https://w7.pngwing.com/pngs/101/702/png-transparent-firebase-web-application-database-firebase-angle-computer-orange.png">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Firebase_Logo.png">
 </h1>
 
 <h1><b>Program Description</b></h1>
